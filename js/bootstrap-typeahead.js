@@ -220,13 +220,10 @@
       e.stopPropagation()
     }
 
+    // twitter-bootstrap has a keypress event here too, that does some strange,
+    // hipster checks, in a very inconvenient way. No browser we've tested seems
+    // to need the keypress event to function, so we've removed it.
   , keydown: function (e) {
-      this.suppressKeyPressRepeat = ~$.inArray(e.keyCode, [40,38,9,13,27])
-      this.move(e)
-    }
-
-  , keypress: function (e) {
-      if (this.suppressKeyPressRepeat) return
       this.move(e)
     }
 
