@@ -2080,8 +2080,8 @@ fieldset[disabled] .btn-default.active {
 
 .btn-primary {
   color: #ffffff;
-  background-color: #dd7404;
-  border-color: #c46704;
+  background-color: #f09c30;
+  border-color: #ee9118;
 }
 
 .btn-primary:hover,
@@ -2090,8 +2090,8 @@ fieldset[disabled] .btn-default.active {
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
   color: #ffffff;
-  background-color: #b55f03;
-  border-color: #884702;
+  background-color: #e68911;
+  border-color: #bc700e;
 }
 
 .btn-primary:active,
@@ -2115,14 +2115,14 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #dd7404;
-  border-color: #c46704;
+  background-color: #f09c30;
+  border-color: #ee9118;
 }
 
 .btn-warning {
   color: #ffffff;
-  background-color: #f9994f;
-  border-color: #f88b36;
+  background-color: #f0ad4e;
+  border-color: #eea236;
 }
 
 .btn-warning:hover,
@@ -2131,8 +2131,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-warning.active,
 .open .dropdown-toggle.btn-warning {
   color: #ffffff;
-  background-color: #f88228;
-  border-color: #e96a08;
+  background-color: #ed9c28;
+  border-color: #d58512;
 }
 
 .btn-warning:active,
@@ -2156,8 +2156,8 @@ fieldset[disabled] .btn-warning:active,
 .btn-warning.disabled.active,
 .btn-warning[disabled].active,
 fieldset[disabled] .btn-warning.active {
-  background-color: #f9994f;
-  border-color: #f88b36;
+  background-color: #f0ad4e;
+  border-color: #eea236;
 }
 
 .btn-danger {
@@ -2244,8 +2244,8 @@ fieldset[disabled] .btn-success.active {
 
 .btn-info {
   color: #ffffff;
-  background-color: #f7d06c;
-  border-color: #f6c854;
+  background-color: #f3a06c;
+  border-color: #f19154;
 }
 
 .btn-info:hover,
@@ -2254,8 +2254,8 @@ fieldset[disabled] .btn-success.active {
 .btn-info.active,
 .open .dropdown-toggle.btn-info {
   color: #ffffff;
-  background-color: #f5c445;
-  border-color: #f3b61a;
+  background-color: #f08846;
+  border-color: #ec6c1c;
 }
 
 .btn-info:active,
@@ -2279,8 +2279,8 @@ fieldset[disabled] .btn-info:active,
 .btn-info.disabled.active,
 .btn-info[disabled].active,
 fieldset[disabled] .btn-info.active {
-  background-color: #f7d06c;
-  border-color: #f6c854;
+  background-color: #f3a06c;
+  border-color: #f19154;
 }
 
 .btn-link {
@@ -4849,12 +4849,12 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .label-info {
-  background-color: #5bc0de;
+  background-color: #f3a06c;
 }
 
 .label-info[href]:hover,
 .label-info[href]:focus {
-  background-color: #31b0d5;
+  background-color: #ef823d;
 }
 
 .label-warning {
@@ -5168,7 +5168,7 @@ a.thumbnail:focus {
 }
 
 .progress-bar-info {
-  background-color: #5bc0de;
+  background-color: #f3a06c;
 }
 
 .progress-striped .progress-bar-info {
